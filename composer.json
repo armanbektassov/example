@@ -1,0 +1,16 @@
+{
+    "name": "testexample/example",
+    "license": "GPL-3.0-only",
+    "autoload": {
+        "psr-4": {
+            "TestExample\\Example\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arman",
+            "email": "armanbektassov@gmail.com"
+        }
+    ],
+    "require": {}
+}
