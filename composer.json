@@ -1,16 +1,27 @@
 {
-    "name": "testexample/example",
+    "name": "amarkets/events",
     "license": "GPL-3.0-only",
-    "autoload": {
-        "psr-4": {
-            "TestExample\\Example\\": "src/"
-        }
-    },
     "authors": [
         {
-            "name": "Arman",
+            "name": "Arman Bektassov",
             "email": "armanbektassov@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^7.4|^8.0",
+        "amranidev/micro-bus": "^0.2.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amarkets\\Events\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
 }

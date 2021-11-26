@@ -1,6 +1,6 @@
 <?php
 
-namespace TestExample\Example;
+namespace Amarkets\Events;
 
 class Example
 {
