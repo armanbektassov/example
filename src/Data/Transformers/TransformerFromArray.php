@@ -2,6 +2,7 @@
 
 namespace Amarkets\Events\Data\Transformers;
 
+use Amarkets\Events\Data\DataInterface;
 use Amarkets\Events\Data\Exceptions\TransformerErrorException;
 use ReflectionClass;
 use ReflectionProperty;
