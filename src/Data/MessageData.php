@@ -2,8 +2,6 @@
 
 namespace Amarkets\Events\Data;
 
-use App\AWSEvents\DTO\EventMessage\ObjectData;
-use App\AWSEvents\DTO\EventMessage\SubjectData;
 
 class MessageData extends AbstractData
 {

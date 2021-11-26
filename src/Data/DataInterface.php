@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Amarkets\Events\Data\Transformers;
+namespace Amarkets\Events\Data;
 
 
 interface DataInterface
